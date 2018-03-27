@@ -97,6 +97,7 @@
 		464DED33206A53FD00D667FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RogTest;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Mac Admin";
 				TargetAttributes = {

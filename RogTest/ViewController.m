@@ -14,16 +14,15 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (IBAction)saveButton:(UIButton *)sender {
+    if ([sender.currentTitleColor isEqual:[UIColor greenColor]]) {
+        [sender setTitleColor:[UIColor blackColor]
+                     forState:UIControlStateNormal];
+    } else {
+        [sender setTitleColor:[UIColor greenColor]
+                     forState:UIControlStateNormal];
+    }
+    //UIImage *checkImage = [UIImage imageNamed:@"check"];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
