@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462A9758206A9454004A699D /* RogTestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 462A9757206A9454004A699D /* RogTestFile.m */; };
 		464DED40206A53FE00D667FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 464DED3F206A53FE00D667FD /* AppDelegate.m */; };
 		464DED43206A53FE00D667FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464DED42206A53FE00D667FD /* ViewController.m */; };
 		464DED46206A53FE00D667FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464DED44206A53FE00D667FD /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		462A9757206A9454004A699D /* RogTestFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RogTestFile.m; sourceTree = "<group>"; };
+		462A9759206A9480004A699D /* RogTestFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RogTestFile.h; sourceTree = "<group>"; };
 		464DED3B206A53FE00D667FD /* RogTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RogTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		464DED3E206A53FE00D667FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		464DED3F206A53FE00D667FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		462A975A206A94E5004A699D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				462A9757206A9454004A699D /* RogTestFile.m */,
+				462A9759206A9480004A699D /* RogTestFile.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		464DED32206A53FD00D667FD = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		464DED3D206A53FE00D667FD /* RogTest */ = {
 			isa = PBXGroup;
 			children = (
+				462A975A206A94E5004A699D /* Model */,
 				464DED3E206A53FE00D667FD /* AppDelegate.h */,
 				464DED3F206A53FE00D667FD /* AppDelegate.m */,
 				464DED41206A53FE00D667FD /* ViewController.h */,
@@ -143,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462A9758206A9454004A699D /* RogTestFile.m in Sources */,
 				464DED43206A53FE00D667FD /* ViewController.m in Sources */,
 				464DED4E206A53FE00D667FD /* main.m in Sources */,
 				464DED40206A53FE00D667FD /* AppDelegate.m in Sources */,
