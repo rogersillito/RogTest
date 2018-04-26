@@ -7,16 +7,32 @@
 //
 
 #import "ViewController.h"
+#import "RogTestFile.h"
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *saveCount;
 @property (weak, nonatomic) IBOutlet UIImageView *check;
 @property (nonatomic) int saveCountVal;
+@property (strong, nonatomic) NSMutableArray *savedFiles;
 
 @end
 
 @implementation ViewController
+
+- (NSMutableArray *)savedFiles
+{
+    if (!_savedFiles) _savedFiles = [[NSMutableArray alloc] init];
+    return _savedFiles;
+}
+
+- (void)saveFile:(NSString *)fileName
+{
+    //TODO: create a file, name it and add to the list.. then call in saveButton
+    //newFile = [[RogTestFile alloc] init];
+    //[self.savedFiles insertObject:<#(nonnull id)#> atIndex:<#(NSUInteger)#>]
+    
+}
 
 - (void)setSaveCountVal:(int)saveCountVal
 {
@@ -32,6 +48,7 @@
                      forState:UIControlStateNormal];
         [self.check setHidden:true];
     } else {
+        
         [sender setTitleColor:[UIColor greenColor]
                      forState:UIControlStateNormal];
         [self.check setHidden:false];

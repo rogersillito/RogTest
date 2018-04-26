@@ -6,4 +6,8 @@
 //  Copyright © 2018 Mac Admin. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "RogTestFile.h"
+
+@implementation RogTestFile
+
+@end

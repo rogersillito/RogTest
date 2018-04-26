@@ -6,6 +6,12 @@
 //  Copyright © 2018 Mac Admin. All rights reserved.
 //
 
-#import "RogTestFile.h"
+#import <Foundation/Foundation.h>
 
 // TODO... 2
+
+@interface RogTestFile : NSObject
+
+@property (strong, nonatomic) NSString *fileName;
+
+@end
