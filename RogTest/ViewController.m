@@ -28,10 +28,10 @@
 
 - (void)saveFile:(NSString *)fileName
 {
-    //TODO: create a file, name it and add to the list.. then call in saveButton
-    //newFile = [[RogTestFile alloc] init];
-    //[self.savedFiles insertObject:<#(nonnull id)#> atIndex:<#(NSUInteger)#>]
-    
+    //TODO: check this works and call it!
+    RogTestFile *newFile = [[RogTestFile alloc] init];
+    newFile.fileName = fileName;
+    [self.savedFiles insertObject:newFile atIndex:0];
 }
 
 - (void)setSaveCountVal:(int)saveCountVal
